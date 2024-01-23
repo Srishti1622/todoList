@@ -1,0 +1,119 @@
+.todoContainerClass{
+    background-color: blueviolet;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todoListClass{
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 5px black;
+    height: 35rem;
+    width: 30rem;
+}
+
+.todoHeaderClass{
+    background-image:url("https://t4.ftcdn.net/jpg/05/27/01/53/360_F_527015387_V5ikeBpvJKe9Gm0uCgHcViMfCMaNVaef.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 9rem;
+}
+
+.todoHeaderTextClass{   
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+#todoBodyClass{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    height:  23rem;
+ 
+}
+
+#todoBodyClass1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    height:  23rem;
+}
+
+#todoBodyContentClass{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28rem;
+    height: 3rem;
+  margin-left: 0.7rem;
+  /* border-color:brown;
+  border-radius:1rem; */
+  
+}
+
+.taskCheckBoxClass{
+    width:  1.9rem;
+    height: 1.9rem;
+    border-color: blueviolet ;
+}
+
+.taskInputBoxClass{
+    width:  18rem;
+    height: 2rem;
+    border-color: blueviolet ;
+}
+
+#todoBodyTextClass{
+    font-family:'Quicksand', sans-serif;
+    padding-top: 0.4rem ;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+#todoBodyFooterClass{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    margin-left: 10px;
+  /* margin-top:20rem; */
+    margin-right: 10px;
+}
+
+.material-symbols-outlined{
+    font-size: 2.5rem;
+    color: blueviolet;
+}
+
+#buttonWithIconClass{
+    padding:0;
+    /* border: none; */
+    /* background:none; */
+    width: 3.2rem;
+    height: 1.8rem;
+    /* margin-right:2rem; */
+  
+}
+
+.emptytodo{
+  color: black;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+#buttonWithIconClass1{
+    padding:0;
+    border: none;
+    background:none;
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
